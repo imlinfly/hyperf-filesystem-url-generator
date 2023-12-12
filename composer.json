@@ -1,0 +1,34 @@
+{
+  "name": "lynnfly/hyperf-filesystem-url-generator",
+  "description": "Hyperf filesystem url generator",
+  "license": "MIT",
+  "keywords": [
+    "hyperf",
+    "filesystem",
+    "url",
+    "generator"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lynnfly\\HyperfFilesystemUrlGenerator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "LynnFly",
+      "email": "fly@eyabc.cn"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "hyperf/di": "~3.0.0",
+    "hyperf/event": "~3.0.0",
+    "hyperf/filesystem": "^3.0",
+    "hyperf/framework": "~3.0.0"
+  },
+  "extra": {
+    "hyperf": {
+      "config": "Lynnfly\\HyperfFilesystemUrlGenerator\\ConfigProvider"
+    }
+  }
+}
